@@ -1,0 +1,21 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://mydomain.com//e-gadgets//1.0.1> a prov:Entity;
+	 dc:title "Electronics and Gadgets E-commerce site ontology.";
+	 prov:wasAttributedTo <https://www.linkedin.com/in/tareqmdrabiulhossainchy/>;
+	 dc:creator <https://www.linkedin.com/in/tareqmdrabiulhossainchy/>;
+	 prov:wasAttributedTo <https://www.linkedin.com/in/nushrat-jahan-3275a9178/>;
+	 dc:creator <https://www.linkedin.com/in/nushrat-jahan-3275a9178/>;
+	 prov:wasAttributedTo <https://www.linkedin.com/in/tareqmdrabiulhossainchy/>;
+	 dc:contributor <https://www.linkedin.com/in/tareqmdrabiulhossainchy/>;
+	 prov:wasAttributedTo <https://www.linkedin.com/in/nushrat-jahan-3275a9178/>;
+	 dc:contributor <https://www.linkedin.com/in/nushrat-jahan-3275a9178/>;
+	 prov:wasAttributedTo <https://www.linkedin.com/in/Utibeabasi>;
+	 dc:contributor <https://www.linkedin.com/in/Utibeabasi>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <http://mydomain.com//e-gadgets//1.0.1>;
+	 prov:wasRevisionOf <http://mydomain.com//e-gadgets//1.0.0>;
+	 prov:wasGeneratedAt "20th April 2023";
+.

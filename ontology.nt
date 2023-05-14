@@ -1,0 +1,969 @@
+<http://mydomain.com//e-gadgets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://mydomain.com//e-gadgets> <http://purl.org/dc/elements/1.1/cite> "Electronics and Gadgets E-commerce site ontology. Tareq, Nushrat, Utibeabasi. Available at [http://mydomain.com/e-gadgets]"@en .
+<http://mydomain.com//e-gadgets> <http://purl.org/dc/elements/1.1/contributor> "Tareq Md Rabiul Hossain Chy\nNushrat Jahan\nUtibeabasi Aniekan DAN"@en .
+<http://mydomain.com//e-gadgets> <http://purl.org/dc/elements/1.1/creator> "Tareq Md Rabiul Hossain Chy<https://www.linkedin.com/in/tareqmdrabiulhossainchy/>\nNushrat Jahan<https://www.linkedin.com/in/nushrat-jahan-3275a9178/>"@en .
+<http://mydomain.com//e-gadgets> <http://purl.org/dc/elements/1.1/date> "20th April 2023"@en .
+<http://mydomain.com//e-gadgets> <http://purl.org/dc/elements/1.1/license> "https://www.gnu.org/licenses/gpl-3.0.en.html"@en .
+<http://mydomain.com//e-gadgets> <http://purl.org/dc/elements/1.1/publisher> "MiTech Solutions"@en .
+<http://mydomain.com//e-gadgets> <http://purl.org/dc/elements/1.1/title> "Electronics and Gadgets E-commerce site ontology."@en .
+<http://mydomain.com//e-gadgets> <http://www.w3.org/2000/01/rdf-schema#comment> "The ontology provided is designed for an Electronics and Gadgets E-commerce site. An ontology is a formal representation of concepts and their relationships within a particular domain. In this case, the ontology aims to define and organize the various electronic devices and gadgets that can be sold on the e-commerce site. The ontology includes a hierarchy of categories and subcategories for different types of electronics, such as smartphones, laptops, cameras, and audio equipment, as well as characteristics and features that can be used to describe and compare these devices. The ontology also includes information on accessories and peripherals that can be sold with these devices. Overall, the ontology provides a structured framework for organizing and navigating the products offered on the e-commerce site."@en .
+<http://mydomain.com//e-gadgets> <http://www.w3.org/2002/07/owl#deprecated> "Stable: The ontology has been developed and is considered to be stable, with no major changes expected in the near future."@en .
+<http://mydomain.com//e-gadgets> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/cite
+<http://purl.org/dc/elements/1.1/cite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#deprecated
+<http://www.w3.org/2002/07/owl#deprecated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://mydomain.com//e-gadgets#hasBrand
+<http://mydomain.com//e-gadgets#hasBrand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mydomain.com//e-gadgets#hasBrand> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://mydomain.com//e-gadgets#hasBrand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://mydomain.com//e-gadgets#hasBrand> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> .
+<http://mydomain.com//e-gadgets#hasBrand> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce product to the brand or manufacturer that produces it."@en .
+<http://mydomain.com//e-gadgets#hasBrand> <http://www.w3.org/2000/01/rdf-schema#label> "hasBrand"@en .
+# 
+# http://mydomain.com//e-gadgets#hasPayment
+<http://mydomain.com//e-gadgets#hasPayment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mydomain.com//e-gadgets#hasPayment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> .
+<http://mydomain.com//e-gadgets#hasPayment> <http://www.w3.org/2000/01/rdf-schema#range> <http://mydomain.com//e-gadgets#Payment> .
+<http://mydomain.com//e-gadgets#hasPayment> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce transaction to the payment details associated with the transaction."@en .
+<http://mydomain.com//e-gadgets#hasPayment> <http://www.w3.org/2000/01/rdf-schema#label> "hasPayment"@en .
+# 
+# http://mydomain.com//e-gadgets#hasPaymentProvider
+<http://mydomain.com//e-gadgets#hasPaymentProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mydomain.com//e-gadgets#hasPaymentProvider> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://mydomain.com//e-gadgets#hasPaymentProvider> <http://www.w3.org/2000/01/rdf-schema#domain> <http://mydomain.com//e-gadgets#Payment> .
+<http://mydomain.com//e-gadgets#hasPaymentProvider> <http://www.w3.org/2000/01/rdf-schema#range> <http://mydomain.com//e-gadgets#PaymentProvider> .
+<http://mydomain.com//e-gadgets#hasPaymentProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce transaction to the payment provider used for the transaction."@en .
+<http://mydomain.com//e-gadgets#hasPaymentProvider> <http://www.w3.org/2000/01/rdf-schema#label> "hasPaymentProvider"@en .
+# 
+# http://mydomain.com//e-gadgets#hasPerformanceSpecification
+<http://mydomain.com//e-gadgets#hasPerformanceSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mydomain.com//e-gadgets#hasPerformanceSpecification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://mydomain.com//e-gadgets#hasPerformanceSpecification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://mydomain.com//e-gadgets#hasPerformanceSpecification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification> .
+<http://mydomain.com//e-gadgets#hasPerformanceSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of a product to its performance specification, which describes the product's technical and functional characteristics and capabilities."@en .
+<http://mydomain.com//e-gadgets#hasPerformanceSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "hasPerformanceSpecification"@en .
+# 
+# http://mydomain.com//e-gadgets#hasPhysicalSpecification
+<http://mydomain.com//e-gadgets#hasPhysicalSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mydomain.com//e-gadgets#hasPhysicalSpecification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://mydomain.com//e-gadgets#hasPhysicalSpecification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://mydomain.com//e-gadgets#hasPhysicalSpecification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification> .
+<http://mydomain.com//e-gadgets#hasPhysicalSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of a product to its physical specification, which describes the product's physical characteristics."@en .
+<http://mydomain.com//e-gadgets#hasPhysicalSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "hasPhysicalSpecification"@en .
+# 
+# http://mydomain.com//e-gadgets#hasProduct
+<http://mydomain.com//e-gadgets#hasProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mydomain.com//e-gadgets#hasProduct> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://mydomain.com//e-gadgets#hasProduct> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+<http://mydomain.com//e-gadgets#hasProduct> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://mydomain.com//e-gadgets#hasProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual (order)  or instance of an e-commerce transaction to the product(s) it includes or references."@en .
+<http://mydomain.com//e-gadgets#hasProduct> <http://www.w3.org/2000/01/rdf-schema#label> "hasProduct"@en .
+# 
+# http://mydomain.com//e-gadgets#hasProductQuantitativeValue
+<http://mydomain.com//e-gadgets#hasProductQuantitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mydomain.com//e-gadgets#hasProductQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://mydomain.com//e-gadgets#hasProductQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://mydomain.com//e-gadgets#hasProductQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue> .
+<http://mydomain.com//e-gadgets#hasProductQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce product to the quantity information that applies to it."@en .
+<http://mydomain.com//e-gadgets#hasProductQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "hasProductQuantitativeValue"@en .
+# 
+# http://mydomain.com//e-gadgets#hasTransaction
+<http://mydomain.com//e-gadgets#hasTransaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mydomain.com//e-gadgets#hasTransaction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://mydomain.com//e-gadgets#hasTransaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://mydomain.com//e-gadgets#Payment> .
+<http://mydomain.com//e-gadgets#hasTransaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+<http://mydomain.com//e-gadgets#hasTransaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+<http://mydomain.com//e-gadgets#hasTransaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> .
+<http://mydomain.com//e-gadgets#hasTransaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> .
+<http://mydomain.com//e-gadgets#hasTransaction> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an order or a payment to a transaction that represents the exchange of funds between the buyer and the seller"@en .
+<http://mydomain.com//e-gadgets#hasTransaction> <http://www.w3.org/2000/01/rdf-schema#label> "hasTransaction"@en .
+# 
+# http://mydomain.com//e-gadgets#hasUser
+<http://mydomain.com//e-gadgets#hasUser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://mydomain.com//e-gadgets#hasUser> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://mydomain.com//e-gadgets#hasUser> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> .
+<http://mydomain.com//e-gadgets#hasUser> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User> .
+<http://mydomain.com//e-gadgets#hasUser> <http://www.w3.org/2000/01/rdf-schema#comment> "It is used to link an e-commerce entity, such as an order or a transaction, with both the buyer and seller involved in the transaction"@en .
+<http://mydomain.com//e-gadgets#hasUser> <http://www.w3.org/2000/01/rdf-schema#label> "hasUser"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/belongsToCategory
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/belongsToCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/belongsToCategory> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/belongsToCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/belongsToCategory> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/belongsToCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce product to a category to which it belongs."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/belongsToCategory> <http://www.w3.org/2000/01/rdf-schema#label> "belongsToCategory"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce transaction or order to the buyer who made the purchase."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer> <http://www.w3.org/2000/01/rdf-schema#label> "hasBuyer"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce product category to a higher-level category to which it belongs."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory> <http://www.w3.org/2000/01/rdf-schema#label> "hasCategory"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual (order) or instance of an e-commerce transaction to the delivery method used for the purchase."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery> <http://www.w3.org/2000/01/rdf-schema#label> "hasDelivery"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryCost
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryCost> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryCost> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryCost> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce transaction to the cost of the delivery method used for the purchase."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryCost> <http://www.w3.org/2000/01/rdf-schema#label> "hasDeliveryCost"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce order to the delivery method selected for the order."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod> <http://www.w3.org/2000/01/rdf-schema#label> "hasDeliveryMethod"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce transaction to the provider of the delivery method used for the purchase."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider> <http://www.w3.org/2000/01/rdf-schema#label> "hasDeliveryProvider"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce order to its current delivery status."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus> <http://www.w3.org/2000/01/rdf-schema#label> "hasDeliveryStatus"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDiscount
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDiscount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDiscount> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDiscount> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDiscount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDiscount> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce product or offer to the discount applied to it."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDiscount> <http://www.w3.org/2000/01/rdf-schema#label> "hasDiscount"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce product or specification to its features or attributes."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature> <http://www.w3.org/2000/01/rdf-schema#label> "hasFeature"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasInventoryLevel
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasInventoryLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasInventoryLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasInventoryLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasInventoryLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasInventoryLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce product to its current inventory level or stock quantity."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasInventoryLevel> <http://www.w3.org/2000/01/rdf-schema#label> "hasInverntoryLevel"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce product to its available offers"@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer> <http://www.w3.org/2000/01/rdf-schema#label> "hasOffer"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce product offer to the product that is being offered."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct> <http://www.w3.org/2000/01/rdf-schema#label> "hasOfferedProduct"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce transaction (buyer, saler) to the order that was placed."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder> <http://www.w3.org/2000/01/rdf-schema#label> "hasOrder"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce order  to the payment method used for the transaction."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod> <http://www.w3.org/2000/01/rdf-schema#label> "hasPaymentMethod"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of a product to its price, which is the cost of the product in a certain currency or currency unit."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice> <http://www.w3.org/2000/01/rdf-schema#label> "hasPrice"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPromotion
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPromotion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPromotion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPromotion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPromotion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPromotion> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual order to a promotion or discount that applies to it."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPromotion> <http://www.w3.org/2000/01/rdf-schema#label> "hasPromotion"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links an individual or instance of an e-commerce transaction or order to the seller who is offering the product for sale."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler> <http://www.w3.org/2000/01/rdf-schema#label> "hasSeller"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property that links a product to its specification, which may include technical details, performance characteristics, or other features that describe the product."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "hasSpecification"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to specify the warranty associated with a product in an e-commerce context. It can be used to link a product to its warranty information, which can include details such as the warranty period, coverage, and terms and conditions."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty> <http://www.w3.org/2000/01/rdf-schema#label> "hasWarranty"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to indicate the entity that is offering a particular product in an e-commerce context. It can be used to link a product to the entity that is selling or providing it, which can be an individual or an organization. This property can help in specifying the seller of a product and also facilitate search and filtering of products offered by a specific entity."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy> <http://www.w3.org/2000/01/rdf-schema#label> "isOfferedBy"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isPaidWith
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isPaidWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isPaidWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isPaidWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isPaidWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isPaidWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an instance of an e-commerce transaction to an instance of a payment method. It is used to indicate the payment method used for the transaction. The payment method can be any type of payment instrument or system."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isPaidWith> <http://www.w3.org/2000/01/rdf-schema#label> "isPaidWith"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://mydomain.com//e-gadgets#Bank
+<http://mydomain.com//e-gadgets#Bank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mydomain.com//e-gadgets#Bank> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://mydomain.com//e-gadgets#PaymentProvider> .
+<http://mydomain.com//e-gadgets#Bank> <http://www.w3.org/2000/01/rdf-schema#label> "Bank" .
+# 
+# http://mydomain.com//e-gadgets#CreditCardCompany
+<http://mydomain.com//e-gadgets#CreditCardCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mydomain.com//e-gadgets#CreditCardCompany> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://mydomain.com//e-gadgets#PaymentProvider> .
+<http://mydomain.com//e-gadgets#CreditCardCompany> <http://www.w3.org/2000/01/rdf-schema#label> "CreditCardCompany" .
+# 
+# http://mydomain.com//e-gadgets#Payment
+<http://mydomain.com//e-gadgets#Payment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mydomain.com//e-gadgets#Payment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://mydomain.com//e-gadgets#PaymentProvider> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://mydomain.com//e-gadgets#hasPaymentProvider> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://mydomain.com//e-gadgets#Payment> <http://www.w3.org/2000/01/rdf-schema#comment> "The process of purchasing a product online in an e-commerce platform, including the payment method and payment provider"@en .
+<http://mydomain.com//e-gadgets#Payment> <http://www.w3.org/2000/01/rdf-schema#label> "Payment"@en .
+# 
+# http://mydomain.com//e-gadgets#PaymentProvider
+<http://mydomain.com//e-gadgets#PaymentProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://mydomain.com//e-gadgets#PaymentProvider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://mydomain.com//e-gadgets#Payment> .
+<http://mydomain.com//e-gadgets#PaymentProvider> <http://www.w3.org/2000/01/rdf-schema#label> "PaymentProvider" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Apple
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Apple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Apple> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Apple> <http://www.w3.org/2000/01/rdf-schema#label> "Apple" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Asus
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Asus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Asus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Asus> <http://www.w3.org/2000/01/rdf-schema#label> "Asus" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/AudioEquipment
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/AudioEquipment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/AudioEquipment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/AudioEquipment> <http://www.w3.org/2000/01/rdf-schema#label> "AudioEquipment" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "A type of product manufactured by a particular company under a particular name"@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> <http://www.w3.org/2000/01/rdf-schema#label> "Brand"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> <http://www.w3.org/2000/01/rdf-schema#label> "Buyer" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CancelledOrder
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CancelledOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CancelledOrder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CancelledOrder> <http://www.w3.org/2000/01/rdf-schema#label> "CancelledOrder" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CashPayment
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CashPayment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CashPayment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CashPayment> <http://www.w3.org/2000/01/rdf-schema#label> "CashPayment" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> <http://www.w3.org/2000/01/rdf-schema#comment> "A classification system used in e-commerce to group products into similar categories based on their attributes and features."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> <http://www.w3.org/2000/01/rdf-schema#label> "Category"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CreditCardPayment
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CreditCardPayment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CreditCardPayment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CreditCardPayment> <http://www.w3.org/2000/01/rdf-schema#label> "CreditCardPayment" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DHL
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DHL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DHL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DHL> <http://www.w3.org/2000/01/rdf-schema#label> "DHL" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivered
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivered> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivered> <http://www.w3.org/2000/01/rdf-schema#label> "Delivered" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid6 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://mydomain.com//e-gadgets#hasTransaction> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> <http://www.w3.org/2000/01/rdf-schema#comment> "The process of delivering a product purchased online to the customer, including shipping, tracking, and delivery methods."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> <http://www.w3.org/2000/01/rdf-schema#label> "Delivery"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> <http://www.w3.org/2000/01/rdf-schema#label> "DeliveryMethod" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider> <http://www.w3.org/2000/01/rdf-schema#label> "DeliveryProvider" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName> <http://www.w3.org/2000/01/rdf-schema#label> "DeliveryProviderName" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> <http://www.w3.org/2000/01/rdf-schema#label> "DeliveryStatus" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Dell
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Dell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Dell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Dell> <http://www.w3.org/2000/01/rdf-schema#label> "Dell" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount> <http://www.w3.org/2000/01/rdf-schema#label> "Discount" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/EarPhone
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/EarPhone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/EarPhone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/EarPhone> <http://www.w3.org/2000/01/rdf-schema#label> "EarPhone" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ExpressDelivery
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ExpressDelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ExpressDelivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ExpressDelivery> <http://www.w3.org/2000/01/rdf-schema#label> "ExpressDelivery" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FailedDelivery
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FailedDelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FailedDelivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FailedDelivery> <http://www.w3.org/2000/01/rdf-schema#label> "FailedDelivery" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features> <http://www.w3.org/2000/01/rdf-schema#label> "Features" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FedEx
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FedEx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FedEx> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FedEx> <http://www.w3.org/2000/01/rdf-schema#label> "FedEx" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FixedAmountDiscount
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FixedAmountDiscount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FixedAmountDiscount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FixedAmountDiscount> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PercentageDiscount> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FixedAmountDiscount> <http://www.w3.org/2000/01/rdf-schema#label> "FixedAmountDiscount" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/GamingAccessories
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/GamingAccessories> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/GamingAccessories> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/GamingAccessories> <http://www.w3.org/2000/01/rdf-schema#label> "GamingAccessories" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/HeadPhone
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/HeadPhone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/HeadPhone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/HeadPhone> <http://www.w3.org/2000/01/rdf-schema#label> "HeadPhone" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/InternationalDelivery
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/InternationalDelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/InternationalDelivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/InternationalDelivery> <http://www.w3.org/2000/01/rdf-schema#label> "InternationalDelivery" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Iphone
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Iphone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Iphone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Iphone> <http://www.w3.org/2000/01/rdf-schema#label> "Iphone" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LG
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LG> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LG> <http://www.w3.org/2000/01/rdf-schema#label> "LG" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Lenovo
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Lenovo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Lenovo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Lenovo> <http://www.w3.org/2000/01/rdf-schema#label> "Lenovo" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LocalDelivery
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LocalDelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LocalDelivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LocalDelivery> <http://www.w3.org/2000/01/rdf-schema#label> "LocalDelivery" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> <http://www.w3.org/2000/01/rdf-schema#label> "NamedBrand" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> <http://www.w3.org/2000/01/rdf-schema#comment> "An online listing or advertisement that describes a product for sale in an e-commerce platform, including its promotional details and discount"@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> <http://www.w3.org/2000/01/rdf-schema#label> "Offer"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineOrder
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineOrder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineOrder> <http://www.w3.org/2000/01/rdf-schema#label> "OnlineOrder" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineTransaction
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineTransaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineTransaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineTransaction> <http://www.w3.org/2000/01/rdf-schema#label> "OnlineTransaction" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://mydomain.com//e-gadgets#Payment> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://mydomain.com//e-gadgets#hasPayment> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://mydomain.com//e-gadgets#hasProduct> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> <http://www.w3.org/2000/01/rdf-schema#comment> "A request made by a customer on an e-commerce platform to purchase one or more products from a seller."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> <http://www.w3.org/2000/01/rdf-schema#label> "Order"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OutForDelivery
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OutForDelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OutForDelivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OutForDelivery> <http://www.w3.org/2000/01/rdf-schema#label> "OutForDelivery" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://mydomain.com//e-gadgets#Payment> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> <http://www.w3.org/2000/01/rdf-schema#label> "PaymentMethod" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaypalPayment
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaypalPayment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaypalPayment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaypalPayment> <http://www.w3.org/2000/01/rdf-schema#label> "PaypalPayment" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PercentageDiscount
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PercentageDiscount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PercentageDiscount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PercentageDiscount> <http://www.w3.org/2000/01/rdf-schema#label> "PercentageDiscount" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "PerformanceSpecification" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "PhysicalSpecification" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price> <http://www.w3.org/2000/01/rdf-schema#label> "Price" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Processing
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Processing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Processing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Processing> <http://www.w3.org/2000/01/rdf-schema#label> "Processing" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid23 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://mydomain.com//e-gadgets#hasBrand> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> <http://www.w3.org/2000/01/rdf-schema#comment> "A product or item offered for sale in an online store or e-commerce platform."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> <http://www.w3.org/2000/01/rdf-schema#label> "Product"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "ProductQuantitativeValue" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion> <http://www.w3.org/2000/01/rdf-schema#label> "Promotion"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/RetailBuyer
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/RetailBuyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/RetailBuyer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/RetailBuyer> <http://www.w3.org/2000/01/rdf-schema#label> "RetailBuyer" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Retailer
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Retailer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Retailer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Retailer> <http://www.w3.org/2000/01/rdf-schema#label> "Retailer" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Returned
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Returned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Returned> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Returned> <http://www.w3.org/2000/01/rdf-schema#label> "Returned" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> <http://www.w3.org/2000/01/rdf-schema#label> "Seller" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SameDayDelivery
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SameDayDelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SameDayDelivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SameDayDelivery> <http://www.w3.org/2000/01/rdf-schema#label> "SameDayDelivery" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Samsung
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Samsung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Samsung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Samsung> <http://www.w3.org/2000/01/rdf-schema#label> "Samsung" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SamsungGalaxyPhone
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SamsungGalaxyPhone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SamsungGalaxyPhone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SamsungGalaxyPhone> <http://www.w3.org/2000/01/rdf-schema#label> "SamsungGalaxyPhone" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Shipped
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Shipped> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Shipped> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Shipped> <http://www.w3.org/2000/01/rdf-schema#label> "Shipped" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SmartPhone
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SmartPhone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SmartPhone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SmartPhone> <http://www.w3.org/2000/01/rdf-schema#label> "SmartPhone" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Sony
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Sony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Sony> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Sony> <http://www.w3.org/2000/01/rdf-schema#label> "Song" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#unionOf> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://mydomain.com//e-gadgets#hasProductQuantitativeValue> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://mydomain.com//e-gadgets#hasPhysicalSpecification> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://mydomain.com//e-gadgets#hasPerformanceSpecification> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of attributes or characteristics that describe a product listed for sale in an e-commerce platform, including features, performance specification, physical specification, warranty, price, product quantitative value."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> <http://www.w3.org/2000/01/rdf-schema#label> "Specification"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/StandardDelivery
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/StandardDelivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/StandardDelivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/StandardDelivery> <http://www.w3.org/2000/01/rdf-schema#label> "StandardDelivery" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid45 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://mydomain.com//e-gadgets#hasUser> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> <http://www.w3.org/2000/01/rdf-schema#comment> "The exchange of goods or services for payment between a buyer and seller in an e-commerce platform."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> <http://www.w3.org/2000/01/rdf-schema#label> "Transaction"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/UPS
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/UPS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/UPS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/UPS> <http://www.w3.org/2000/01/rdf-schema#label> "UPS" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User> <http://www.w3.org/2000/01/rdf-schema#comment> "A person who uses an e-commerce platform to browse, purchase, or sell products or services. It includes buyer and seller."@en .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User> <http://www.w3.org/2000/01/rdf-schema#label> "User"@en .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty> <http://www.w3.org/2000/01/rdf-schema#label> "Warranty" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholeSaller
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholeSaller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholeSaller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholeSaller> <http://www.w3.org/2000/01/rdf-schema#label> "WholeSaler" .
+# 
+# http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholesaleBuyer
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholesaleBuyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholesaleBuyer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> .
+<http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholesaleBuyer> <http://www.w3.org/2000/01/rdf-schema#label> "WholesaleBuyer" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://mydomain.com//e-gadgets#Apple
+<http://mydomain.com//e-gadgets#Apple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mydomain.com//e-gadgets#Apple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> .
+# 
+# http://mydomain.com//e-gadgets#Asus
+<http://mydomain.com//e-gadgets#Asus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mydomain.com//e-gadgets#Asus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> .
+# 
+# http://mydomain.com//e-gadgets#Laptop
+<http://mydomain.com//e-gadgets#Laptop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mydomain.com//e-gadgets#Laptop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+# 
+# http://mydomain.com//e-gadgets#Nushrat
+<http://mydomain.com//e-gadgets#Nushrat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mydomain.com//e-gadgets#Nushrat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer> .
+# 
+# http://mydomain.com//e-gadgets#Smartphone
+<http://mydomain.com//e-gadgets#Smartphone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mydomain.com//e-gadgets#Smartphone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+# 
+# http://mydomain.com//e-gadgets#Tareq
+<http://mydomain.com//e-gadgets#Tareq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mydomain.com//e-gadgets#Tareq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> .
+# 
+# http://mydomain.com//e-gadgets#ZenBookUX482
+<http://mydomain.com//e-gadgets#ZenBookUX482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mydomain.com//e-gadgets#ZenBookUX482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+# 
+# http://mydomain.com//e-gadgets#iPhone13
+<http://mydomain.com//e-gadgets#iPhone13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mydomain.com//e-gadgets#iPhone13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid53 <http://www.w3.org/2002/07/owl#members> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid58 <http://www.w3.org/2002/07/owl#members> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineTransaction> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid63 <http://www.w3.org/2002/07/owl#members> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid67 <http://www.w3.org/2002/07/owl#members> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid72 <http://www.w3.org/2002/07/owl#members> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid77 <http://www.w3.org/2002/07/owl#members> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaypalPayment> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CreditCardPayment> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CashPayment> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,1833 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid5"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#hasTransaction"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#hasPayment"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#Payment"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#hasProduct"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid31"
+    }, {
+      "@id" : "_:genid29"
+    }, {
+      "@id" : "_:genid27"
+    }, {
+      "@id" : "_:genid25"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#hasBrand"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid44"
+    }, {
+      "@id" : "_:genid42"
+    }, {
+      "@id" : "_:genid40"
+    }, {
+      "@id" : "_:genid38"
+    }, {
+      "@id" : "_:genid36"
+    }, {
+      "@id" : "_:genid34"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#hasProductQuantitativeValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#hasPhysicalSpecification"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#hasPerformanceSpecification"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid51"
+    }, {
+      "@id" : "_:genid49"
+    }, {
+      "@id" : "_:genid47"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#hasPaymentProvider"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#PaymentProvider"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#hasUser"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineTransaction"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid16"
+    }, {
+      "@id" : "_:genid14"
+    }, {
+      "@id" : "_:genid12"
+    }, {
+      "@id" : "_:genid10"
+    }, {
+      "@id" : "_:genid8"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CashPayment"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CreditCardPayment"
+    }, {
+      "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaypalPayment"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/cite" : [ {
+    "@language" : "en",
+    "@value" : "Electronics and Gadgets E-commerce site ontology. Tareq, Nushrat, Utibeabasi. Available at [http://mydomain.com/e-gadgets]"
+  } ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@language" : "en",
+    "@value" : "Tareq Md Rabiul Hossain Chy\nNushrat Jahan\nUtibeabasi Aniekan DAN"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "Tareq Md Rabiul Hossain Chy<https://www.linkedin.com/in/tareqmdrabiulhossainchy/>\nNushrat Jahan<https://www.linkedin.com/in/nushrat-jahan-3275a9178/>"
+  } ],
+  "http://purl.org/dc/elements/1.1/date" : [ {
+    "@language" : "en",
+    "@value" : "20th April 2023"
+  } ],
+  "http://purl.org/dc/elements/1.1/license" : [ {
+    "@language" : "en",
+    "@value" : "https://www.gnu.org/licenses/gpl-3.0.en.html"
+  } ],
+  "http://purl.org/dc/elements/1.1/publisher" : [ {
+    "@language" : "en",
+    "@value" : "MiTech Solutions"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Electronics and Gadgets E-commerce site ontology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The ontology provided is designed for an Electronics and Gadgets E-commerce site. An ontology is a formal representation of concepts and their relationships within a particular domain. In this case, the ontology aims to define and organize the various electronic devices and gadgets that can be sold on the e-commerce site. The ontology includes a hierarchy of categories and subcategories for different types of electronics, such as smartphones, laptops, cameras, and audio equipment, as well as characteristics and features that can be used to describe and compare these devices. The ontology also includes information on accessories and peripherals that can be sold with these devices. Overall, the ontology provides a structured framework for organizing and navigating the products offered on the e-commerce site."
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@language" : "en",
+    "@value" : "Stable: The ontology has been developed and is considered to be stable, with no major changes expected in the near future."
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#Apple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#Asus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#Bank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bank"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#PaymentProvider"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#CreditCardCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CreditCardCompany"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#PaymentProvider"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#Laptop",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#Nushrat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#Payment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The process of purchasing a product online in an e-commerce platform, including the payment method and payment provider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Payment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#PaymentProvider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PaymentProvider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#Payment"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#Smartphone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#Tareq",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#ZenBookUX482",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#hasBrand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce product to the brand or manufacturer that produces it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasBrand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#hasPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce transaction to the payment details associated with the transaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPayment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#Payment"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#hasPaymentProvider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce transaction to the payment provider used for the transaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#Payment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPaymentProvider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#PaymentProvider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#hasPerformanceSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of a product to its performance specification, which describes the product's technical and functional characteristics and capabilities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPerformanceSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#hasPhysicalSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of a product to its physical specification, which describes the product's physical characteristics."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPhysicalSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#hasProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual (order)  or instance of an e-commerce transaction to the product(s) it includes or references."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasProduct"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#hasProductQuantitativeValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce product to the quantity information that applies to it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasProductQuantitativeValue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#hasTransaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an order or a payment to a transaction that represents the exchange of funds between the buyer and the seller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#Payment"
+  }, {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  }, {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasTransaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer"
+  }, {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#hasUser",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is used to link an e-commerce entity, such as an order or a transaction, with both the buyer and seller involved in the transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasUser"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://mydomain.com//e-gadgets#iPhone13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/cite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Apple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Apple"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Asus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Asus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/AudioEquipment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "AudioEquipment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A type of product manufactured by a particular company under a particular name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Brand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Buyer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CancelledOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CancelledOrder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CashPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CashPayment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A classification system used in e-commerce to group products into similar categories based on their attributes and features."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CreditCardPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CreditCardPayment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DHL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DHL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivered",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Delivered"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The process of delivering a product purchased online to the customer, including shipping, tracking, and delivery methods."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Delivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DeliveryMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DeliveryProvider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DeliveryProviderName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DeliveryStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Dell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dell"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Discount"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/EarPhone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "EarPhone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ExpressDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ExpressDelivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FailedDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FailedDelivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Features"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FedEx",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FedEx"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FixedAmountDiscount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FixedAmountDiscount"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PercentageDiscount"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/GamingAccessories",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "GamingAccessories"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/HeadPhone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "HeadPhone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/InternationalDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "InternationalDelivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Iphone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Iphone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Lenovo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Lenovo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LocalDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LocalDelivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "NamedBrand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An online listing or advertisement that describes a product for sale in an e-commerce platform, including its promotional details and discount"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Offer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OnlineOrder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineTransaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OnlineTransaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A request made by a customer on an e-commerce platform to purchase one or more products from a seller."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid18"
+  }, {
+    "@id" : "_:genid19"
+  }, {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid21"
+  }, {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OutForDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OutForDelivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PaymentMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://mydomain.com//e-gadgets#Payment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaypalPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PaypalPayment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PercentageDiscount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PercentageDiscount"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PerformanceSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PhysicalSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Processing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Processing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A product or item offered for sale in an online store or e-commerce platform."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ProductQuantitativeValue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Promotion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/RetailBuyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "RetailBuyer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Retailer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Retailer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Returned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Returned"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Seller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SameDayDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SameDayDelivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Samsung",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Samsung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SamsungGalaxyPhone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SamsungGalaxyPhone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Shipped",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Shipped"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SmartPhone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SmartPhone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Sony",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Song"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A set of attributes or characteristics that describe a product listed for sale in an e-commerce platform, including features, performance specification, physical specification, warranty, price, product quantitative value."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid32"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/StandardDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "StandardDelivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The exchange of goods or services for payment between a buyer and seller in an e-commerce platform."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid45"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/UPS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "UPS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A person who uses an e-commerce platform to browse, purchase, or sell products or services. It includes buyer and seller."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid52"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Warranty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholeSaller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "WholeSaler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholesaleBuyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "WholesaleBuyer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/belongsToCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce product to a category to which it belongs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "belongsToCategory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce transaction or order to the buyer who made the purchase."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  }, {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasBuyer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce product category to a higher-level category to which it belongs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasCategory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual (order) or instance of an e-commerce transaction to the delivery method used for the purchase."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasDelivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryCost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce transaction to the cost of the delivery method used for the purchase."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasDeliveryCost"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce order to the delivery method selected for the order."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasDeliveryMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce transaction to the provider of the delivery method used for the purchase."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasDeliveryProvider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce order to its current delivery status."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasDeliveryStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDiscount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce product or offer to the discount applied to it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasDiscount"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce product or specification to its features or attributes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  }, {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasFeature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasInventoryLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce product to its current inventory level or stock quantity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasInverntoryLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce product to its available offers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasOffer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce product offer to the product that is being offered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasOfferedProduct"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce transaction (buyer, saler) to the order that was placed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasOrder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce order  to the payment method used for the transaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPaymentMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of a product to its price, which is the cost of the product in a certain currency or currency unit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPrice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPromotion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual order to a promotion or discount that applies to it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPromotion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links an individual or instance of an e-commerce transaction or order to the seller who is offering the product for sale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasSeller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object property that links a product to its specification, which may include technical details, performance characteristics, or other features that describe the product."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasSpecification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Used to specify the warranty associated with a product in an e-commerce context. It can be used to link a product to its warranty information, which can include details such as the warranty period, coverage, and terms and conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  }, {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasWarranty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Used to indicate the entity that is offering a particular product in an e-commerce context. It can be used to link a product to the entity that is selling or providing it, which can be an individual or an organization. This property can help in specifying the seller of a product and also facilitate search and filtering of products offered by a specific entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isOfferedBy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isPaidWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates an instance of an e-commerce transaction to an instance of a payment method. It is used to indicate the payment method used for the transaction. The payment method can be any type of payment instrument or system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isPaidWith"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#deprecated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionInfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

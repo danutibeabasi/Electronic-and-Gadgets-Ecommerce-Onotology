@@ -1,0 +1,1002 @@
+@prefix : <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/> .
+
+<http://mydomain.com//e-gadgets> rdf:type owl:Ontology ;
+                                  <http://purl.org/dc/elements/1.1/cite> "Electronics and Gadgets E-commerce site ontology. Tareq, Nushrat, Utibeabasi. Available at [http://mydomain.com/e-gadgets]"@en ;
+                                  <http://purl.org/dc/elements/1.1/contributor> """Tareq Md Rabiul Hossain Chy
+Nushrat Jahan
+Utibeabasi Aniekan DAN"""@en ;
+                                  <http://purl.org/dc/elements/1.1/creator> """Tareq Md Rabiul Hossain Chy<https://www.linkedin.com/in/tareqmdrabiulhossainchy/>
+Nushrat Jahan<https://www.linkedin.com/in/nushrat-jahan-3275a9178/>"""@en ;
+                                  <http://purl.org/dc/elements/1.1/date> "20th April 2023"@en ;
+                                  <http://purl.org/dc/elements/1.1/license> "https://www.gnu.org/licenses/gpl-3.0.en.html"@en ;
+                                  <http://purl.org/dc/elements/1.1/publisher> "MiTech Solutions"@en ;
+                                  <http://purl.org/dc/elements/1.1/title> "Electronics and Gadgets E-commerce site ontology."@en ;
+                                  rdfs:comment "The ontology provided is designed for an Electronics and Gadgets E-commerce site. An ontology is a formal representation of concepts and their relationships within a particular domain. In this case, the ontology aims to define and organize the various electronic devices and gadgets that can be sold on the e-commerce site. The ontology includes a hierarchy of categories and subcategories for different types of electronics, such as smartphones, laptops, cameras, and audio equipment, as well as characteristics and features that can be used to describe and compare these devices. The ontology also includes information on accessories and peripherals that can be sold with these devices. Overall, the ontology provides a structured framework for organizing and navigating the products offered on the e-commerce site."@en ;
+                                  owl:deprecated "Stable: The ontology has been developed and is considered to be stable, with no major changes expected in the near future."@en ;
+                                  owl:versionInfo "1.0.0"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/cite
+<http://purl.org/dc/elements/1.1/cite> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#deprecated
+owl:deprecated rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionInfo
+owl:versionInfo rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://mydomain.com//e-gadgets#hasBrand
+:hasBrand rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Product ;
+          rdfs:range :NamedBrand ;
+          rdfs:comment "An object property that links an individual or instance of an e-commerce product to the brand or manufacturer that produces it."@en ;
+          rdfs:label "hasBrand"@en .
+
+
+###  http://mydomain.com//e-gadgets#hasPayment
+:hasPayment rdf:type owl:ObjectProperty ;
+            rdfs:domain :Transaction ;
+            rdfs:range :Payment ;
+            rdfs:comment "An object property that links an individual or instance of an e-commerce transaction to the payment details associated with the transaction."@en ;
+            rdfs:label "hasPayment"@en .
+
+
+###  http://mydomain.com//e-gadgets#hasPaymentProvider
+:hasPaymentProvider rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain :Payment ;
+                    rdfs:range :PaymentProvider ;
+                    rdfs:comment "An object property that links an individual or instance of an e-commerce transaction to the payment provider used for the transaction."@en ;
+                    rdfs:label "hasPaymentProvider"@en .
+
+
+###  http://mydomain.com//e-gadgets#hasPerformanceSpecification
+:hasPerformanceSpecification rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty ;
+                             rdfs:domain :Specification ;
+                             rdfs:range :PerformanceSpecification ;
+                             rdfs:comment "An object property that links an individual or instance of a product to its performance specification, which describes the product's technical and functional characteristics and capabilities."@en ;
+                             rdfs:label "hasPerformanceSpecification"@en .
+
+
+###  http://mydomain.com//e-gadgets#hasPhysicalSpecification
+:hasPhysicalSpecification rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty ;
+                          rdfs:domain :Specification ;
+                          rdfs:range :PhysicalSpecification ;
+                          rdfs:comment "An object property that links an individual or instance of a product to its physical specification, which describes the product's physical characteristics."@en ;
+                          rdfs:label "hasPhysicalSpecification"@en .
+
+
+###  http://mydomain.com//e-gadgets#hasProduct
+:hasProduct rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Order ;
+            rdfs:range :Product ;
+            rdfs:comment "An object property that links an individual (order)  or instance of an e-commerce transaction to the product(s) it includes or references."@en ;
+            rdfs:label "hasProduct"@en .
+
+
+###  http://mydomain.com//e-gadgets#hasProductQuantitativeValue
+:hasProductQuantitativeValue rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty ;
+                             rdfs:domain :Specification ;
+                             rdfs:range :ProductQuantitativeValue ;
+                             rdfs:comment "An object property that links an individual or instance of an e-commerce product to the quantity information that applies to it."@en ;
+                             rdfs:label "hasProductQuantitativeValue"@en .
+
+
+###  http://mydomain.com//e-gadgets#hasTransaction
+:hasTransaction rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :Payment ,
+                            :Delivery ,
+                            :Order ;
+                rdfs:range :Buyer ,
+                           :Saler ;
+                rdfs:comment "An object property that links an order or a payment to a transaction that represents the exchange of funds between the buyer and the seller"@en ;
+                rdfs:label "hasTransaction"@en .
+
+
+###  http://mydomain.com//e-gadgets#hasUser
+:hasUser rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Transaction ;
+         rdfs:range :User ;
+         rdfs:comment "It is used to link an e-commerce entity, such as an order or a transaction, with both the buyer and seller involved in the transaction"@en ;
+         rdfs:label "hasUser"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/belongsToCategory
+:belongsToCategory rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Product ;
+                   rdfs:range :Category ;
+                   rdfs:comment "An object property that links an individual or instance of an e-commerce product to a category to which it belongs."@en ;
+                   rdfs:label "belongsToCategory"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasBuyer
+:hasBuyer rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Order ,
+                      :Transaction ;
+          rdfs:range :Buyer ;
+          rdfs:comment "An object property that links an individual or instance of an e-commerce transaction or order to the buyer who made the purchase."@en ;
+          rdfs:label "hasBuyer"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasCategory
+:hasCategory rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Product ;
+             rdfs:range :Category ;
+             rdfs:comment "An object property that links an individual or instance of an e-commerce product category to a higher-level category to which it belongs."@en ;
+             rdfs:label "hasCategory"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDelivery
+:hasDelivery rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Order ;
+             rdfs:range :Delivery ;
+             rdfs:comment "An object property that links an individual (order) or instance of an e-commerce transaction to the delivery method used for the purchase."@en ;
+             rdfs:label "hasDelivery"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryCost
+:hasDeliveryCost rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:domain :Delivery ;
+                 rdfs:comment "An object property that links an individual or instance of an e-commerce transaction to the cost of the delivery method used for the purchase."@en ;
+                 rdfs:label "hasDeliveryCost"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryMethod
+:hasDeliveryMethod rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Delivery ;
+                   rdfs:range :DeliveryMethod ;
+                   rdfs:comment "An object property that links an individual or instance of an e-commerce order to the delivery method selected for the order."@en ;
+                   rdfs:label "hasDeliveryMethod"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryProvider
+:hasDeliveryProvider rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdfs:domain :Delivery ;
+                     rdfs:range :DeliveryProvider ;
+                     rdfs:comment "An object property that links an individual or instance of an e-commerce transaction to the provider of the delivery method used for the purchase."@en ;
+                     rdfs:label "hasDeliveryProvider"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDeliveryStatus
+:hasDeliveryStatus rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Delivery ;
+                   rdfs:range :DeliveryStatus ;
+                   rdfs:comment "An object property that links an individual or instance of an e-commerce order to its current delivery status."@en ;
+                   rdfs:label "hasDeliveryStatus"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasDiscount
+:hasDiscount rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Promotion ;
+             rdfs:range :Discount ;
+             rdfs:comment "An object property that links an individual or instance of an e-commerce product or offer to the discount applied to it."@en ;
+             rdfs:label "hasDiscount"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasFeature
+:hasFeature rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Product ,
+                        :Specification ;
+            rdfs:range :Features ;
+            rdfs:comment "An object property that links an individual or instance of an e-commerce product or specification to its features or attributes."@en ;
+            rdfs:label "hasFeature"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasInventoryLevel
+:hasInventoryLevel rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Product ;
+                   rdfs:range :ProductQuantitativeValue ;
+                   rdfs:comment "An object property that links an individual or instance of an e-commerce product to its current inventory level or stock quantity."@en ;
+                   rdfs:label "hasInverntoryLevel"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOffer
+:hasOffer rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Product ;
+          rdfs:range :Offer ;
+          rdfs:comment "An object property that links an individual or instance of an e-commerce product to its available offers"@en ;
+          rdfs:label "hasOffer"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOfferedProduct
+:hasOfferedProduct rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   owl:inverseOf :isOfferedBy ;
+                   rdfs:domain :Offer ;
+                   rdfs:range :Product ;
+                   rdfs:comment "An object property that links an individual or instance of an e-commerce product offer to the product that is being offered."@en ;
+                   rdfs:label "hasOfferedProduct"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasOrder
+:hasOrder rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Order ;
+          rdfs:range :User ;
+          rdfs:comment "An object property that links an individual or instance of an e-commerce transaction (buyer, saler) to the order that was placed."@en ;
+          rdfs:label "hasOrder"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPaymentMethod
+:hasPaymentMethod rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Order ;
+                  rdfs:range :PaymentMethod ;
+                  rdfs:comment "An object property that links an individual or instance of an e-commerce order  to the payment method used for the transaction."@en ;
+                  rdfs:label "hasPaymentMethod"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPrice
+:hasPrice rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Specification ;
+          rdfs:range :Price ;
+          rdfs:comment "An object property that links an individual or instance of a product to its price, which is the cost of the product in a certain currency or currency unit."@en ;
+          rdfs:label "hasPrice"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasPromotion
+:hasPromotion rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Offer ;
+              rdfs:range :Promotion ;
+              rdfs:comment "An object property that links an individual order to a promotion or discount that applies to it."@en ;
+              rdfs:label "hasPromotion"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSaler
+:hasSaler rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Transaction ;
+          rdfs:range :Saler ;
+          rdfs:comment "An object property that links an individual or instance of an e-commerce transaction or order to the seller who is offering the product for sale."@en ;
+          rdfs:label "hasSeller"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasSpecification
+:hasSpecification rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Product ;
+                  rdfs:range :Specification ;
+                  rdfs:comment "An object property that links a product to its specification, which may include technical details, performance characteristics, or other features that describe the product."@en ;
+                  rdfs:label "hasSpecification"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/hasWarranty
+:hasWarranty rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Product ,
+                         :Specification ;
+             rdfs:range :Warranty ;
+             rdfs:comment "Used to specify the warranty associated with a product in an e-commerce context. It can be used to link a product to its warranty information, which can include details such as the warranty period, coverage, and terms and conditions."@en ;
+             rdfs:label "hasWarranty"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isOfferedBy
+:isOfferedBy rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Product ;
+             rdfs:range :Offer ;
+             rdfs:comment "Used to indicate the entity that is offering a particular product in an e-commerce context. It can be used to link a product to the entity that is selling or providing it, which can be an individual or an organization. This property can help in specifying the seller of a product and also facilitate search and filtering of products offered by a specific entity."@en ;
+             rdfs:label "isOfferedBy"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/isPaidWith
+:isPaidWith rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Order ;
+            rdfs:range :PaymentMethod ;
+            rdfs:comment "Relates an instance of an e-commerce transaction to an instance of a payment method. It is used to indicate the payment method used for the transaction. The payment method can be any type of payment instrument or system."@en ;
+            rdfs:label "isPaidWith"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://mydomain.com//e-gadgets#Bank
+:Bank rdf:type owl:Class ;
+      rdfs:subClassOf :PaymentProvider ;
+      rdfs:label "Bank" .
+
+
+###  http://mydomain.com//e-gadgets#CreditCardCompany
+:CreditCardCompany rdf:type owl:Class ;
+                   rdfs:subClassOf :PaymentProvider ;
+                   rdfs:label "CreditCardCompany" .
+
+
+###  http://mydomain.com//e-gadgets#Payment
+:Payment rdf:type owl:Class ;
+         rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :hasPaymentProvider ;
+                                                  owl:someValuesFrom :PaymentProvider
+                                                ]
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :hasPaymentMethod ;
+                                                  owl:someValuesFrom :PaymentMethod
+                                                ]
+                                              ) ;
+                           rdf:type owl:Class
+                         ] ;
+         rdfs:comment "The process of purchasing a product online in an e-commerce platform, including the payment method and payment provider"@en ;
+         rdfs:label "Payment"@en .
+
+
+###  http://mydomain.com//e-gadgets#PaymentProvider
+:PaymentProvider rdf:type owl:Class ;
+                 rdfs:subClassOf :Payment ;
+                 rdfs:label "PaymentProvider" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Apple
+:Apple rdf:type owl:Class ;
+       rdfs:subClassOf :NamedBrand ;
+       rdfs:label "Apple" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Asus
+:Asus rdf:type owl:Class ;
+      rdfs:subClassOf :NamedBrand ;
+      rdfs:label "Asus" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/AudioEquipment
+:AudioEquipment rdf:type owl:Class ;
+                rdfs:subClassOf :Category ;
+                rdfs:label "AudioEquipment" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Brand
+:Brand rdf:type owl:Class ;
+       rdfs:comment "A type of product manufactured by a particular company under a particular name"@en ;
+       rdfs:label "Brand"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Buyer
+:Buyer rdf:type owl:Class ;
+       rdfs:subClassOf :Role ;
+       owl:disjointWith :Specification ;
+       rdfs:label "Buyer" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CancelledOrder
+:CancelledOrder rdf:type owl:Class ;
+                rdfs:subClassOf :Order ;
+                rdfs:label "CancelledOrder" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CashPayment
+:CashPayment rdf:type owl:Class ;
+             rdfs:subClassOf :PaymentMethod ;
+             rdfs:label "CashPayment" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Category
+:Category rdf:type owl:Class ;
+          rdfs:comment "A classification system used in e-commerce to group products into similar categories based on their attributes and features."@en ;
+          rdfs:label "Category"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/CreditCardPayment
+:CreditCardPayment rdf:type owl:Class ;
+                   rdfs:subClassOf :PaymentMethod ;
+                   rdfs:label "CreditCardPayment" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DHL
+:DHL rdf:type owl:Class ;
+     rdfs:subClassOf :DeliveryProviderName ;
+     rdfs:label "DHL" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivered
+:Delivered rdf:type owl:Class ;
+           rdfs:subClassOf :DeliveryStatus ;
+           rdfs:label "Delivered" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Delivery
+:Delivery rdf:type owl:Class ;
+          rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasTransaction ;
+                                                   owl:someValuesFrom :Transaction
+                                                 ]
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasDeliveryMethod ;
+                                                   owl:someValuesFrom :DeliveryMethod
+                                                 ]
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasDeliveryProvider ;
+                                                   owl:someValuesFrom :DeliveryProvider
+                                                 ]
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasDeliveryStatus ;
+                                                   owl:someValuesFrom :DeliveryStatus
+                                                 ]
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :hasOrder ;
+                                                   owl:someValuesFrom :Order
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] ;
+          rdfs:comment "The process of delivering a product purchased online to the customer, including shipping, tracking, and delivery methods."@en ;
+          rdfs:label "Delivery"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryMethod
+:DeliveryMethod rdf:type owl:Class ;
+                rdfs:subClassOf :Delivery ;
+                rdfs:label "DeliveryMethod" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProvider
+:DeliveryProvider rdf:type owl:Class ;
+                  rdfs:subClassOf :Delivery ;
+                  rdfs:label "DeliveryProvider" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryProviderName
+:DeliveryProviderName rdf:type owl:Class ;
+                      rdfs:subClassOf :DeliveryProvider ;
+                      rdfs:label "DeliveryProviderName" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/DeliveryStatus
+:DeliveryStatus rdf:type owl:Class ;
+                rdfs:subClassOf :Delivery ;
+                rdfs:label "DeliveryStatus" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Dell
+:Dell rdf:type owl:Class ;
+      rdfs:subClassOf :NamedBrand ;
+      rdfs:label "Dell" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Discount
+:Discount rdf:type owl:Class ;
+          rdfs:subClassOf :Offer ;
+          owl:disjointWith :Promotion ;
+          rdfs:label "Discount" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/EarPhone
+:EarPhone rdf:type owl:Class ;
+          rdfs:subClassOf :Product ;
+          rdfs:label "EarPhone" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ExpressDelivery
+:ExpressDelivery rdf:type owl:Class ;
+                 rdfs:subClassOf :DeliveryMethod ;
+                 rdfs:label "ExpressDelivery" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FailedDelivery
+:FailedDelivery rdf:type owl:Class ;
+                rdfs:subClassOf :DeliveryStatus ;
+                rdfs:label "FailedDelivery" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Features
+:Features rdf:type owl:Class ;
+          rdfs:subClassOf :Specification ;
+          rdfs:label "Features" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FedEx
+:FedEx rdf:type owl:Class ;
+       rdfs:subClassOf :DeliveryProviderName ;
+       rdfs:label "FedEx" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/FixedAmountDiscount
+:FixedAmountDiscount rdf:type owl:Class ;
+                     rdfs:subClassOf :Discount ;
+                     owl:disjointWith :PercentageDiscount ;
+                     rdfs:label "FixedAmountDiscount" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/GamingAccessories
+:GamingAccessories rdf:type owl:Class ;
+                   rdfs:subClassOf :Category ;
+                   rdfs:label "GamingAccessories" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/HeadPhone
+:HeadPhone rdf:type owl:Class ;
+           rdfs:subClassOf :Product ;
+           rdfs:label "HeadPhone" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/InternationalDelivery
+:InternationalDelivery rdf:type owl:Class ;
+                       rdfs:subClassOf :DeliveryMethod ;
+                       rdfs:label "InternationalDelivery" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Iphone
+:Iphone rdf:type owl:Class ;
+        rdfs:subClassOf :Product ;
+        rdfs:label "Iphone" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LG
+:LG rdf:type owl:Class ;
+    rdfs:subClassOf :NamedBrand ;
+    rdfs:label "LG" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Lenovo
+:Lenovo rdf:type owl:Class ;
+        rdfs:subClassOf :NamedBrand ;
+        rdfs:label "Lenovo" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/LocalDelivery
+:LocalDelivery rdf:type owl:Class ;
+               rdfs:subClassOf :DeliveryMethod ;
+               rdfs:label "LocalDelivery" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/NamedBrand
+:NamedBrand rdf:type owl:Class ;
+            rdfs:subClassOf :Brand ;
+            rdfs:label "NamedBrand" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Offer
+:Offer rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasPrice ;
+                         owl:someValuesFrom :Price
+                       ] ;
+       rdfs:comment "An online listing or advertisement that describes a product for sale in an e-commerce platform, including its promotional details and discount"@en ;
+       rdfs:label "Offer"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineOrder
+:OnlineOrder rdf:type owl:Class ;
+             rdfs:subClassOf :Order ;
+             rdfs:label "OnlineOrder" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OnlineTransaction
+:OnlineTransaction rdf:type owl:Class ;
+                   rdfs:subClassOf :Transaction ;
+                   rdfs:label "OnlineTransaction" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Order
+:Order rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasPayment ;
+                         owl:someValuesFrom :Payment
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasProduct ;
+                         owl:someValuesFrom :Product
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasBuyer ;
+                         owl:someValuesFrom :Buyer
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasDelivery ;
+                         owl:someValuesFrom :Delivery
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasSaler ;
+                         owl:someValuesFrom :Saler
+                       ] ;
+       rdfs:comment "A request made by a customer on an e-commerce platform to purchase one or more products from a seller."@en ;
+       rdfs:label "Order"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/OutForDelivery
+:OutForDelivery rdf:type owl:Class ;
+                rdfs:subClassOf :DeliveryStatus ;
+                rdfs:label "OutForDelivery" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaymentMethod
+:PaymentMethod rdf:type owl:Class ;
+               rdfs:subClassOf :Payment ;
+               rdfs:label "PaymentMethod" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PaypalPayment
+:PaypalPayment rdf:type owl:Class ;
+               rdfs:subClassOf :PaymentMethod ;
+               rdfs:label "PaypalPayment" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PercentageDiscount
+:PercentageDiscount rdf:type owl:Class ;
+                    rdfs:subClassOf :Discount ;
+                    rdfs:label "PercentageDiscount" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PerformanceSpecification
+:PerformanceSpecification rdf:type owl:Class ;
+                          rdfs:subClassOf :Specification ;
+                          rdfs:label "PerformanceSpecification" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/PhysicalSpecification
+:PhysicalSpecification rdf:type owl:Class ;
+                       rdfs:subClassOf :Specification ;
+                       rdfs:label "PhysicalSpecification" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Price
+:Price rdf:type owl:Class ;
+       rdfs:subClassOf :Specification ;
+       rdfs:label "Price" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Processing
+:Processing rdf:type owl:Class ;
+            rdfs:subClassOf :DeliveryStatus ;
+            rdfs:label "Processing" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Product
+:Product rdf:type owl:Class ;
+         rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :hasBrand ;
+                                                  owl:someValuesFrom :NamedBrand
+                                                ]
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :hasCategory ;
+                                                  owl:someValuesFrom :Category
+                                                ]
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :hasOffer ;
+                                                  owl:someValuesFrom :Offer
+                                                ]
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :hasSpecification ;
+                                                  owl:someValuesFrom :Specification
+                                                ]
+                                              ) ;
+                           rdf:type owl:Class
+                         ] ;
+         rdfs:comment "A product or item offered for sale in an online store or e-commerce platform."@en ;
+         rdfs:label "Product"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/ProductQuantitativeValue
+:ProductQuantitativeValue rdf:type owl:Class ;
+                          rdfs:subClassOf :Specification ;
+                          rdfs:label "ProductQuantitativeValue" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Promotion
+:Promotion rdf:type owl:Class ;
+           rdfs:subClassOf :Offer ;
+           rdfs:label "Promotion"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/RetailBuyer
+:RetailBuyer rdf:type owl:Class ;
+             rdfs:subClassOf :Buyer ;
+             rdfs:label "RetailBuyer" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Retailer
+:Retailer rdf:type owl:Class ;
+          rdfs:subClassOf :Saler ;
+          rdfs:label "Retailer" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Returned
+:Returned rdf:type owl:Class ;
+          rdfs:subClassOf :DeliveryStatus ;
+          rdfs:label "Returned" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Role
+:Role rdf:type owl:Class ;
+      rdfs:subClassOf :User ;
+      rdfs:label "Role" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Saler
+:Saler rdf:type owl:Class ;
+       rdfs:subClassOf :Role ;
+       rdfs:label "Seller" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SameDayDelivery
+:SameDayDelivery rdf:type owl:Class ;
+                 rdfs:subClassOf :DeliveryMethod ;
+                 rdfs:label "SameDayDelivery" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Samsung
+:Samsung rdf:type owl:Class ;
+         rdfs:subClassOf :NamedBrand ;
+         rdfs:label "Samsung" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SamsungGalaxyPhone
+:SamsungGalaxyPhone rdf:type owl:Class ;
+                    rdfs:subClassOf :Product ;
+                    rdfs:label "SamsungGalaxyPhone" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Shipped
+:Shipped rdf:type owl:Class ;
+         rdfs:subClassOf :DeliveryStatus ;
+         rdfs:label "Shipped" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/SmartPhone
+:SmartPhone rdf:type owl:Class ;
+            rdfs:subClassOf :Category ;
+            rdfs:label "SmartPhone" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Sony
+:Sony rdf:type owl:Class ;
+      rdfs:subClassOf :NamedBrand ;
+      rdfs:label "Song" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Specification
+:Specification rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Class ;
+                                 owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasPerformanceSpecification ;
+                                                 owl:someValuesFrom :PerformanceSpecification
+                                               ]
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasPhysicalSpecification ;
+                                                 owl:someValuesFrom :PhysicalSpecification
+                                               ]
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasProductQuantitativeValue ;
+                                                 owl:someValuesFrom :ProductQuantitativeValue
+                                               ]
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasFeature ;
+                                                 owl:someValuesFrom :Features
+                                               ]
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasPrice ;
+                                                 owl:someValuesFrom :Price
+                                               ]
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :hasWarranty ;
+                                                 owl:someValuesFrom :Warranty
+                                               ]
+                                             )
+                               ] ;
+               rdfs:comment "A set of attributes or characteristics that describe a product listed for sale in an e-commerce platform, including features, performance specification, physical specification, warranty, price, product quantitative value."@en ;
+               rdfs:label "Specification"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/StandardDelivery
+:StandardDelivery rdf:type owl:Class ;
+                  rdfs:subClassOf :DeliveryMethod ;
+                  rdfs:label "StandardDelivery" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Transaction
+:Transaction rdf:type owl:Class ;
+             rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :hasUser ;
+                                                      owl:someValuesFrom :User
+                                                    ]
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :hasDelivery ;
+                                                      owl:someValuesFrom :Delivery
+                                                    ]
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :hasPaymentMethod ;
+                                                      owl:someValuesFrom :PaymentMethod
+                                                    ]
+                                                  ) ;
+                               rdf:type owl:Class
+                             ] ;
+             rdfs:comment "The exchange of goods or services for payment between a buyer and seller in an e-commerce platform."@en ;
+             rdfs:label "Transaction"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/UPS
+:UPS rdf:type owl:Class ;
+     rdfs:subClassOf :DeliveryProviderName ;
+     rdfs:label "UPS" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/User
+:User rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasOrder ;
+                        owl:someValuesFrom :Order
+                      ] ;
+      rdfs:comment "A person who uses an e-commerce platform to browse, purchase, or sell products or services. It includes buyer and seller."@en ;
+      rdfs:label "User"@en .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/Warranty
+:Warranty rdf:type owl:Class ;
+          rdfs:subClassOf :Specification ;
+          rdfs:label "Warranty" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholeSaller
+:WholeSaller rdf:type owl:Class ;
+             rdfs:subClassOf :Saler ;
+             rdfs:label "WholeSaler" .
+
+
+###  http://www.semanticweb.org/tareq/ontologies/2023/3/untitled-ontology-12/WholesaleBuyer
+:WholesaleBuyer rdf:type owl:Class ;
+                rdfs:subClassOf :Buyer ;
+                rdfs:label "WholesaleBuyer" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://mydomain.com//e-gadgets#Apple
+:Apple rdf:type owl:NamedIndividual ,
+                :Brand .
+
+
+###  http://mydomain.com//e-gadgets#Asus
+:Asus rdf:type owl:NamedIndividual ,
+               :Brand .
+
+
+###  http://mydomain.com//e-gadgets#Laptop
+:Laptop rdf:type owl:NamedIndividual ,
+                 :Category .
+
+
+###  http://mydomain.com//e-gadgets#Nushrat
+:Nushrat rdf:type owl:NamedIndividual ,
+                  :Buyer .
+
+
+###  http://mydomain.com//e-gadgets#Smartphone
+:Smartphone rdf:type owl:NamedIndividual ,
+                     :Category .
+
+
+###  http://mydomain.com//e-gadgets#Tareq
+:Tareq rdf:type owl:NamedIndividual ,
+                :Saler .
+
+
+###  http://mydomain.com//e-gadgets#ZenBookUX482
+:ZenBookUX482 rdf:type owl:NamedIndividual ,
+                       :Product .
+
+
+###  http://mydomain.com//e-gadgets#iPhone13
+:iPhone13 rdf:type owl:NamedIndividual ,
+                   :Product .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Brand
+                :Category
+                :Delivery
+                :Specification
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Brand
+                :Category
+                :OnlineTransaction
+                :Specification
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Brand
+                :Category
+                :PaymentMethod
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Brand
+                :Category
+                :Saler
+                :Specification
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Brand
+                :Category
+                :Specification
+                :Transaction
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CashPayment
+                :CreditCardPayment
+                :PaypalPayment
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
